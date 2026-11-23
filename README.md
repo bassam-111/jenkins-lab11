@@ -18,3 +18,5 @@ docker run --rm --network host -u $(id -u):$(id -g) -e HOME=/tmp -e BASE_URL=htt
 ```
 
 <!-- Task 8: webhook test - harmless comment to trigger the Jenkins webhook -->
+
+<!-- Task 8: second webhook test - verify automatic build #8 -->
