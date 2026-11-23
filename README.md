@@ -16,3 +16,5 @@ docker build -t lab11-site:manual .
 docker run -d --name lab11-staging -p 8090:80 lab11-site:manual
 docker run --rm --network host -u $(id -u):$(id -g) -e HOME=/tmp -e BASE_URL=http://localhost:8090 -v "$PWD":/work -w /work selenium-test-agent pytest tests/test_site.py -v
 ```
+
+<!-- Task 8: webhook test - harmless comment to trigger the Jenkins webhook -->
